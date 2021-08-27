@@ -60,7 +60,7 @@ async function submitEnviar(e){
         });
         // Enviar http://localhost:4000/
         // https://trigrama-server.herokuapp.com/correo
-        const res = await axios.post("http://localhost:4000/correo", datos);
+        const res = await axios.post("https://trigrama-server.herokuapp.com/correo", datos);
     } catch (error) {
         console.log(error);
     }
