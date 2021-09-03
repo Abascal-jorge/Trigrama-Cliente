@@ -14,9 +14,9 @@ function myApp(){
     btnright.addEventListener("click", Next);
     btnleft.addEventListener("click", before);
 
-    /*setInterval(() => {
+    setInterval(() => {
         Next();
-    }, 8000);*/
+    }, 8000);
 }
 
 function Next(){
